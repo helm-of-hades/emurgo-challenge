@@ -4,7 +4,7 @@
   "description": "",
   "main": "perumtations.js",
   "scripts": {
-    "start": "./node_modules/.bin/flow-node index.js.flow"
+    "start": "./node_modules/.bin/flow-node index.js"
   },
   "author": "",
   "license": "ISC",

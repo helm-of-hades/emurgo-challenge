@@ -1,8 +1,8 @@
 // @flow
 
 // Swap out these implementations for a good time!
-const combinator = require("./combinator-iterative.js.flow");
-// const combinator = require("./combinator-recursive.js.flow");
+// const combinator = require("./combinator-iterative.js");
+const combinator = require("./combinator-recursive.js");
 
 const solution1 = (
   str: string,
