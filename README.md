@@ -5,7 +5,13 @@ This readme outlines the thinking behind 2 different approaches to tackling the 
 Additionally, it outlines a funky moment of code-reuse I thought was cute.
 
 ## Running it
-Running this should look like...
+
+Install dependencies.
+```sh
+$ npm install
+```
+
+Running this should look like:
 
 ```sh
 $ npm start  
@@ -17,7 +23,7 @@ If this is the only output, test cases passed!
 ```
 
 ## Question A
-```md
+```txt
 a) You have an array of characters (string) that may be '1', '0' o '*'. e.g. 10*00*0. The program
 needs to generate an output of all the possible combinations by replacing * with an 0 and 1.
 I.e. input> 10**0 output> 10000, 10010, 10100, 10110. Input > *0 output > 00, 10.
@@ -37,7 +43,7 @@ then...
 > Iterate through all combinations and interpolate their characters (`[1,0]`) ordinally - each one corresponding with a "*" character in the input string  
 
 ## Question B
-```md
+```text
 b) You have an array of lists e.g.; [[1,3], ['a'], [4,5]]. We would like to obtain all the
 permutations between the lists. The answer for this example is: (1,a,4) (1,a,5) (3,a,4) (3,a,5).
 Code a program that does this for any quantity of lists and elements on them.
