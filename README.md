@@ -60,4 +60,4 @@ The recursive solution can consume huge amounts of space when problem sets get b
 
 I chose to address this shortcoming by getting iterative!
 
-You can toggle the solution to use the iterative implementation in the [./index.js.flow](./index.js.flow#L4-L5) file.
+You can toggle the solution to use the iterative implementation in the [./index.js](./index.js.flow#L4-L5) file.
